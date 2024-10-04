@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>ZABAVA</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/shortcut.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/shortcut.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<h2 style="text-align: center; margin: 40px auto; color: white">
+		Pages
+	</h2>
+	<ul class="mm" style="display: flex; max-width: 800px; margin: 0 auto 50px; flex-wrap: wrap;">
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="main.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Главная</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto 40px;">
+			<a href="partry.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Partry</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="programm.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Programm</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="programm-item.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">Prog-item</a>
+		</li>
+		<li style="width: 25%; margin: 0 auto;">
+			<a href="error.html"
+				style="font-weight: bold; color: white; font-size: 25px; display: block; text-align: center;">404</a>
+		</li>
+	</ul>
+	<div class="d-flex"
+		style="justify-content: center; margin-top: 80px; max-width: 1000px; margin: 0 auto; flex-wrap: wrap;">
+		<a href="#" class="btn btn_1 a1" style="margin: 20px;">
+			Popup
+		</a>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call">
+			<div class="popup-call__box popup3">
+				<div class="box-modal__close articmodal-close">
+					<img src="img/close.svg" alt="" class="svg">
+				</div>
+				<p class="popup__title">
+					Спланировать визит
+				</p>
+				<p class="popup__sub">
+					Нейросеть YandexART научилась восстанавливать архивные видеозаписи и кинохронику. Это может быть полезно
+					кинокомпаниям, музеям, историкам и другим специалистам.
+				</p>
+				<form action="success.php" class="popup__form js-form" id="popupResult" method="post">
+					<input type="number" placeholder="Дата визита" class="form__field">
+					<input type="text" placeholder="Ваше имя" class="form__field">
+					<input type="tel" placeholder="Номер телефона" class="tel form__field">
+					<button class="btn  popup__btn" data-submit>
+						Отправить заявку
+					</button>
+				</form>
+
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-thank">
+			<div class="popup-call__box popup3">
+				<div class="box-modal__close articmodal-close">
+					<img src="img/close.svg" alt="">
+				</div>
+				<div class="popup__wrap">
+					<p class="popup__title">
+						Спасибо Вам, <br> что выбрали нас
+					</p>
+					<p class="sub">
+						Наш менеджер свяжется с Вами <br> в течении 15 минут
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<script src="js/all.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript"
+		src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+</body>
+
+</html>

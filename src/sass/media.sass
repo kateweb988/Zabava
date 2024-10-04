@@ -1,0 +1,941 @@
+@media screen and (max-width: 1550px)
+   .container
+      max-width: 1200px
+   .footer__pic_1
+      left: -53px
+   .footer__pic_2
+      left: 80px
+   .footer__pic_3
+      left: 280px
+   .footer__pic_4
+      left: 430px
+   .footer__pic:last-child
+      right: 0
+   .info__item img
+      width: 48%
+   .info__content
+      margin-left: 20px
+   .info__item:last-child .info__content
+      margin-left: 0
+      margin-right: 20px
+   .art__item:nth-child(4) img
+      width: 106%
+   h3 
+      font-size: 22px
+   .art__item img
+      width: 100%
+      left: 14px
+   .header__pic_6
+      width: 900px
+   .header__pic_1
+      width: 620px
+   .header__pic_4
+      width: 500px
+   .header__pic_7
+      right: -15px
+   .header__logo 
+      display: block
+      width: 250px
+      text-align: center
+      margin: 0 auto 40px
+   .header__pic_5
+      right: -20px
+   .header__btn
+      margin-bottom: 40px
+   .partry .art__item:first-child img 
+      bottom: -14px
+      left: 41px
+      width: 91% !important
+   .partry .art__item img 
+      width: 100% !important
+   .partry .art__item:nth-child(3) img
+      left: 34px
+   .partry .art__item:nth-child(4) img
+      left: 126px
+   .page 
+      .nav__tel 
+         display: block
+         text-align: right
+         margin-left: 0
+      .nav__box ul li
+         margin-right: 28px
+   .partry2 .art__item:first-child img 
+      bottom: -18px
+      left: 117px
+      width: 75% !important
+   .partry2 .art__item:last-child img 
+      left: -7px
+      bottom: 2px
+      width: 72% !important
+   .prog__text
+      -webkit-line-clamp: 3
+   .prog-item__pic
+      position: relative
+      right: -40px
+@media screen and (max-width: 1300px)
+   .header__pic_2
+      top: 100px
+   .pag 
+      display: flex
+      justify-content: center
+      width: max-content
+      margin-top: 20px
+      .swiper-pagination-bullet
+         opacity: 1
+         border-radius: 50% 
+         width: 7px
+         height: 7px
+         border-radius: 6px
+         background: rgba(255, 255, 255, 0.4)
+         margin-right: 7px
+         &:last-child
+            margin-right: 0
+      .swiper-pagination-bullet-active
+         background: white !important
+   .art__item img
+      left: -40px
+   .art__item:nth-child(2) img
+      bottom: 30px
+      left: 15px
+      width: 411px
+   .art__item:nth-child(3) img
+      bottom: 30px
+   .art__item:nth-child(4) img
+      width: 100%
+      left: 3.4%
+   .partry .art__item:first-child img 
+      bottom: -38px
+      left: -35px
+      width: 91% !important
+   .partry .art__item:nth-child(2) img
+      left: 49px
+      bottom: 25px
+   .partry .art__item:nth-child(3) img
+      left: -14px
+      bottom: 14px
+   .partry .art__item:nth-child(4) img
+      left: 96px
+      bottom: -10px
+      width: 90% !important
+   .partry2 .art__item:first-child img 
+      bottom: -18px
+      left: 115px
+      width: 74% !important
+   .partry2 .art__item:last-child img
+      width: 69% !important
+      left: 7px
+      bottom: 5px
+   .page .prog-item__content
+      max-width: 50.7% 
+   .prog-item__pic
+      right: 0
+@media screen and (max-width: 1199px)
+   .nav__box 
+      position: relative
+      ul 
+         display: none
+   .menu-btn 
+      width: 24px
+      height: 24px
+      position: absolute
+      background: url(/img/bur1.svg) no-repeat center center
+      left: 0px
+      top: 0px
+      z-index: 11
+      overflow: hidden
+   .menu-btn span 
+      width: 38px
+      height: 2px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: $yellow
+      transition: all 0.5s
+   .menu-btn span:nth-of-type(2) 
+      top: calc(50% - 8.5px)
+      width: 38px
+      height: 2px
+   .menu-btn span:nth-of-type(3) 
+      top: calc(50% + 9.4px)
+      width: 38px
+      height: 2px
+   .menu 
+      position: fixed
+      top: 115px
+      right: 0
+      width: 100%
+      height: max-content
+      padding: 6px 20px 40px
+      transform: translateX(-500%)
+      transition: transform 0.5s
+      z-index: 7
+      overflow: hidden
+      border-radius: 0px 0px 20px 20px
+      backdrop-filter: blur(30px)
+      background: rgba(0, 0, 0, 0.8)
+      ul 
+         li 
+            margin-bottom: 20px
+            a 
+               color: rgb(255, 255, 255)
+               font-size: 18px
+               font-weight: 400
+               line-height: 20px
+   .menu.active
+      transform: translateX(0)
+   .menu-btn.active 
+      overflow: visible
+      position: fixed
+      left: 30px
+      top: 40px
+      background: url(/img/bur2.svg) no-repeat center center
+   .menu-btn.active span:nth-of-type(1) 
+      display: none
+   .menu-btn.active span:nth-of-type(2) 
+      top: 50%
+      width: 24px
+      transform: translate(-50%, 0%) rotate(45deg)
+      margin-left: 0
+   .menu-btn.active span:nth-of-type(3) 
+      width: 24px
+      top: 50%
+      transform: translate(-50%, 0%) rotate(-44deg)
+      margin-left: 0
+   .menu-btn, .menu
+      display: block
+   .header 
+      .container
+         position: relative
+   .header__btn
+      margin-bottom: 0
+      position: absolute
+      top: -45px
+      right: 0
+      z-index: 3
+      width: 220px
+      height: 41px
+      font-size: 14px
+   .header__logo
+      width: 200px
+      margin-bottom: 70px
+   h1 
+      font-size: 140px
+   .header .per1
+      font-size: 35px
+      line-height: 110%
+   .header .per2
+      line-height: 110%
+      font-size: 22px
+   .header__pic_6
+      bottom: -38px
+      width: 800px
+   .header__area
+      margin-right: -103px
+   .header__wrap
+      margin-top: 20px
+   .header__pic_2
+      width: 120px
+      left: -220px
+      top: 0
+   .header__pic_3
+      width: 150px
+   .header__pic_4 
+      top: 210px
+      width: 726px
+      bottom: initial
+      left: -186px
+      width: 536px
+   .header__pic_5, .header__pic_7, .art-arr, .event__fig
+      display: none
+   .art__item img
+      left: 0
+   .art__item:nth-child(4) img
+      bottom: 0
+   .info__item
+      margin-bottom: 40px
+      position: relative
+      flex-direction: column
+      align-items: center  
+      h3 
+         position: absolute
+         top: 0
+         left: 0
+   .info__content
+      margin-left: 0
+      margin-top: 22px
+      text-align: left
+   .info__content
+      max-width: 100%
+   .info__content a
+      margin-left: 0
+   .info__item:last-child img
+      order: 1
+   .info__item img
+      max-height: 336px
+      margin-top: 57px
+      top: 0 !important
+   .info__item:last-child .info__content
+      margin-right: 0
+   .event__content
+      max-width: 100%
+   .footer__pic_1
+      width: 200px
+      left: 30px
+   .footer__pic_2
+      left: 60px
+      top: 50px
+      width: 180px
+   .footer__pic_3
+      left: 240px
+      width: 150px
+   .footer__pic_4
+      left: 370px
+      width: 190px
+   .footer__pic:last-child
+      width: 180px
+      right: -30px
+   .footer__fig
+      bottom: -135px
+   .art
+      padding-bottom: 40px
+   .header__pic, .art__item img, .footer__wrap img
+      transform: inherit !important
+   h2 
+      font-size: 35px
+   .art__item:nth-child(2) img 
+      bottom: 19px
+      left: -18px
+      width: 328px
+   .partry .art__item:first-child img 
+      bottom: 22px
+      left: -11px
+      width: 100% !important
+   .partry .art__item:nth-child(2) img
+      left: 2px
+      bottom: 25px
+   .partry .art__item:nth-child(3) img
+      left: 1px
+      bottom: 23px
+   .partry .art__item:nth-child(4) img
+      left: 36px
+   .page 
+      .nav__logo 
+         margin-right: auto
+         margin-left: 50px
+         position: relative
+         top: -5px
+         img
+            &:nth-child(1)
+               display: none
+            &:nth-child(2)
+               display: block
+      .menu 
+         top: 123px
+   .page .nav
+      z-index: 10
+   .footer__item p
+      font-size: 18px
+   .partry2 .art__item:first-child img 
+      bottom: -4px
+      left: 22px
+      width: 90% !important
+   .partry2 .art__item:nth-child(2) img 
+      left: 21px
+      bottom: 25px
+      width: 75% !important
+   .prog-item__pic
+      display: none
+   .page .prog-item__content
+      max-width: 100%
+@media ( max-width: 991px )
+   .prog__block
+      flex-direction: column
+      align-items: center
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   .header__logo
+      width: 180px
+   .header__pic_1
+      width: 500px
+      bottom: -10px
+   .header__pic_2 
+      width: 100px
+      left: -120px
+      top: 0
+   .header__pic_3 
+      width: 130px
+      left: -48px
+      top: 96px
+   .header__pic_4 
+      top: 199px
+      bottom: initial
+      left: -109px
+      width: 422px
+   .header__pic_6
+      width: 700px
+      right: -57px
+   .art__item
+      margin-bottom: 28px
+      width: 100%
+   .art__item img
+      width: auto
+      left: 12%
+   .art__item:nth-child(2) img
+      left: 16%
+   .art__item:nth-child(3) img
+      bottom: -12px
+      left: 27px
+   .art__item:nth-child(4) img 
+      width: 108%
+      bottom: 44px
+      left: 1.4%
+   .info
+      padding: 40px 0
+   .info__item img
+      width: 100%
+      max-height: inherit
+   .footer__wrap
+      display: none
+   .footer
+      padding-bottom: 100px
+   .footer__fig
+      bottom: -275px
+   .event__pic
+      width: 180px
+   .page .section
+      padding-bottom: 40px
+   .partry .art__item
+      height: 350px
+   .prog__box
+      flex-wrap: nowrap
+   .prog
+      &__area, &__box
+         display: flex
+         overflow-x: auto
+         flex-wrap: nowrap
+         &:after 
+            content: ""
+            display: flex
+            height: 20px
+            width: 20px
+            background: transparent
+            flex: 1 0 auto 
+            max-width: 20px
+      &__block, &__item
+         width: 100%
+         flex: 1 0 auto 
+         max-width: 282px 
+         margin-right: 10px
+         img
+            height: 240px
+            width: 100%
+            max-width: 100% 
+            margin-right: 0
+         a 
+            width: 100%
+   .prog__name
+      font-size: 18px
+      -webkit-line-clamp: 2
+      -webkit-box-orient: vertical
+      overflow: hidden
+      text-overflow: ellipsis
+      display: block
+      display: -webkit-box
+      margin-bottom: 10px
+   .prog__text
+      font-size: 16px
+      line-height: 27px
+      margin-bottom: 15px
+      -webkit-line-clamp: 4
+   .prog h1
+      font-size: 35px
+@media screen and (max-width: 767px)
+   .partry
+      h1 
+         display: none
+   .partry .art__item
+      height: 350px
+      width: 100% !important
+   .header__logo
+      width: 160px
+   h1 
+      font-size: 110px
+   .header .per1
+      font-size: 30px
+   .header .per2
+      font-size: 20px
+   .header__pic_6
+      width: 585px
+   .header__pic_1
+      left: 40px
+   .header__pic_4 
+      top: 205px
+      bottom: initial
+      left: -12px
+      width: 369px
+   .arcticmodal-container_i
+      width: 100%
+   .popup-call__box
+      left: 0
+      margin-left: 0
+      width: 100%
+   .popup__form button
+      width: 100%
+   .header__pic_2
+      left: -20px
+   .header__pic_3
+      left: 31px
+   .art h2
+      font-size: 30px
+   .art .swiper1
+      overflow: visible 
+      width: 90%
+   .art__item:nth-child(2) img
+      left: 13%
+   .art__item:nth-child(4) img 
+      width: 178%
+      bottom: 40px
+      left: -69.6%
+   .event .swiper2
+      overflow: visible 
+      width: 90%
+      a
+         height: 280px
+   .event__pic
+      display: none
+   .event
+      padding: 60px 0
+   .rev__btn
+      position: absolute
+      bottom: -82px
+      left: 0
+      width: 100%
+   .rev__yandex
+      width: 100%
+   .rev__left
+      width: 100%
+   .rev
+      padding-bottom: 120px
+      .swiper3
+         overflow: visible 
+         width: 70%
+   .partry .art__item:first-child img 
+      bottom: -5px
+      left: 105px
+      width: 73% !important
+   .partry .art__item:nth-child(2) img
+      width: 80% !important
+      left: 55px
+      bottom: 9px
+   .partry .art__item:nth-child(3) img
+      width: 80% !important
+      left: 69px
+      bottom: 7px
+   .partry .art__item:nth-child(4) img
+      width: 80% !important
+      left: 140px
+      bottom: 7px
+   .partry2 .art__item:first-child img 
+      bottom: -5px
+      left: 162px
+      width: 60% !important
+   .partry2 .art__item:nth-child(2) img 
+      width: 58% !important
+      left: 21px
+      bottom: 9px
+   .page .error__box p
+      font-size: 258px
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mm 
+      flex-direction: column 
+      align-items: center
+      justify-content: center
+      li 
+         margin-bottom: 40px !important
+         width: 100% !important
+         margin-top: 0 !important
+   .mob 
+      display: block !important
+   .nav
+      padding: 20px 0
+   .container
+      padding: 0 10px
+   .header__btn 
+      top: -31px
+      right: 11px
+   .header__logo
+      width: 100px
+   h1 
+      font-size: 100px
+   .header .per1
+      font-size: 25px
+   .header .per2
+      font-size: 13px
+   .header__pic_1 
+      width: 237px
+      bottom: -27px
+      left: -15px
+   .header__pic_6 
+      width: 298px
+      right: 15px
+      bottom: -44px
+   .header__content
+      margin-top: -31px
+   .header__pic_4 
+      top: 103px
+      bottom: initial
+      left: -82px
+      width: 204px
+   .header__pic_2 
+      width: 43px
+      left: -92px
+      top: 79px
+   .header__pic_3 
+      width: 61px
+      left: -35px
+      top: 46px
+   .popup-call__box
+      padding: 20px
+   .popup__title
+      font-size: 21px
+      margin-bottom: 20px
+      width: 100%
+      max-width: 200px
+   .popup__sub
+      font-size: 14px
+      margin-bottom: 20px
+   h2 
+      font-size: 24px !important
+      line-height: 27px
+      margin-bottom: 10px
+   .header
+      padding-bottom: 48px
+   .art h2
+      margin-bottom: 10px
+   .art__row
+      margin-top: 40px
+   .art__item
+      height: 258px
+      padding: 20px
+   h3 
+      font-size: 20px
+      line-height: 22px
+   .art__item
+      img 
+         width: 281px
+         left: 55px
+         top: -20px
+      &:nth-child(2)
+         h3 
+            text-align: right
+   .art__item:nth-child(2) img 
+      left: -1px
+      top: 1px
+      width: 316px
+   .art__item:nth-child(3) img 
+      bottom: inherit
+      left: 2%
+      width: 353px
+      top: 40px
+   .menu
+      background: rgba(0, 0, 0, 0.5)
+      top: 96px
+   .menu-btn.active 
+      left: 16px
+      top: 18px
+   .art__item:nth-child(4)
+      h3 
+         text-align: left
+      img 
+         width: 901px
+         bottom: inherit
+         left: 50%
+         top: 38px
+         margin-left: -650px
+   .art
+      padding-bottom: 0
+   .info__item h3
+      font-size: 24px
+      line-height: 32px
+      margin-bottom: 20px
+   .info__item img
+      margin-top: 77px
+      left: -3px
+   .info__content p
+      font-size: 16px
+      line-height: 27px
+   .info__content a
+      width: 100%
+   .info__item:last-child
+      .info__content p
+         margin-top: -17px
+   .event h2
+      text-align: left
+   .event .swiper2
+      width: 85%
+   .rev
+      padding-top: 20px
+   .event
+      padding-bottom: 30px
+   .rev__photo
+      width: 60px
+      height: 60px
+   .rev__text
+      font-size: 16px
+      line-height: 27px
+   .rev .swiper3
+      width: 79%
+   .rev__btn 
+      bottom: -82px
+      left: 10px
+      width: 95%
+   .footer
+      padding-top: 20px
+   .footer__item a, .footer__item p
+      font-size: 18px
+   .footer h2
+      margin-bottom: 23px
+   .footer__fig 
+      bottom: -279px
+      left: -272px
+   .event
+      padding-top: 40px
+   .sub
+      br 
+         display: none
+   #popup-thank 
+      .popup__title
+         font-size: 19px
+   .info__content p 
+      -webkit-line-clamp: 4
+      -webkit-box-orient: vertical
+      overflow: hidden
+      text-overflow: ellipsis
+      display: block
+      display: -webkit-box
+      &.opened
+         -webkit-line-clamp: inherit
+   .info 
+      .info__more, .info__more2
+         display: block
+         color: rgb(255, 204, 154)
+         font-size: 16px
+         font-weight: 400
+         line-height: 18px
+         height: auto
+         margin-bottom: 20px
+         margin-top: -15px
+   .header__pic_2
+      animation: anim 5s infinite linear
+      -webkit-animation: anim 5s infinite linear
+   @keyframes anim
+      0%  
+         top: 79px 
+      25%  
+         top: 50px
+      50%  
+         top: 20px   
+      75%  
+         bottom: 50px   
+      100%  
+         bottom: 79px
+   .header__pic_3
+      animation: anim2 5s infinite linear
+      -webkit-animation: anim2 5s infinite linear
+   @keyframes anim2
+      0%  
+         top: 46px 
+      25%  
+         top: 30px
+      50%  
+         top: 14px   
+      75%  
+         top: 30px   
+      100%  
+         top: 46px
+   .header__pic_4
+      animation: anim3 4s infinite linear
+      -webkit-animation: anim3 4s infinite linear
+   @keyframes anim3
+      0%  
+         left: -82px 
+      25%  
+         left: -92px
+      50%  
+         left: -102px   
+      75%  
+         left: -92px   
+      100%  
+         left: -82px
+   .info__item
+      .wow 
+         animation-delay: 0s !important
+         animation-name: inherit !important
+         visibility: visible !important
+   .bread a
+      margin-bottom: 4px
+   .partry .art__row
+      margin-top: 30px
+   .partry .art__item
+      height: 258px
+   .page
+      .nav
+         padding-top: 15px
+      .menu-btn
+         left: 0px
+         top: 24px
+      .menu-btn.active
+         left: 13px
+         top: 41px
+   .nav__phone
+      margin-top: 10px
+   .page .nav__logo 
+      margin-right: auto
+      margin-left: 38px
+      position: relative
+      top: -7px
+   .page .menu
+      top: 114px
+   .partry
+      .art__item
+         margin-bottom: 19px
+         &:first-child
+            img 
+               bottom: -11px
+               left: 65px
+               width: 285px !important
+               top: inherit
+         &:nth-child(2)
+            img 
+               bottom: -6px
+               left: 42px
+               width: 322px !important
+               top: inherit
+         &:nth-child(3)
+            img 
+               bottom: -6px
+               left: 42px
+               width: 317px !important
+               top: inherit
+         &:nth-child(4)
+            img 
+               bottom: -21px
+               margin-left: 0
+               left: 62px
+               width: 294px !important
+               top: inherit
+         h3 
+            br 
+               display: none
+   .partry .art__item h3
+      text-align: left !important
+   .page .section
+      padding-bottom: 34px
+   .partry2 .art__item:first-child img 
+      bottom: -10px
+      left: 91px
+      width: 224px !important
+      top: inherit
+   .partry2 .art__item:nth-child(2) img 
+      bottom: -17px
+      left: 78px
+      width: 236px !important
+      top: inherit
+   .prog h1
+      font-size: 24px
+      margin-bottom: 14px
+   .prog__block img, .prog__item img
+      height: 226px
+   .prog__item span
+      font-size: 16px
+   .prog__item p
+      font-size: 16px
+   .prog__box
+      margin-bottom: 21px
+   .prog h2
+      margin-bottom: 21px
+   .prog__block img
+      height: 244px
+   .prog
+      padding-bottom: 12px
+   .swiper11
+      margin: 20px 0
+      width: 81%
+   .swiper11 a
+      height: 200px
+   .page .prog-item__content p
+      font-size: 16px
+      line-height: 27px
+   .page .prog-item__content div
+      padding: 15px 20px 
+      font-size: 16px
+      line-height: 27px
+      margin: 0px 0 30px
+   .bread
+      margin-bottom: 25px
+   .page .prog-item
+      padding-bottom: 60px
+   .page .error__box h1
+      font-size: 23px
+      line-height: 26px
+      margin-bottom: 30px
+   .page .error__box p
+      font-size: 171px
+      margin-bottom: 10px
+   .page .error__box a
+      .svg 
+         margin-right: 15px
+@media screen and (max-width: 380px)
+   .partry
+      .art__item
+         margin-bottom: 19px
+         &:first-child
+            img 
+               bottom: -9px
+               left: 41px
+               width: 285px !important
+               top: inherit
+         &:nth-child(2)
+            img 
+               bottom: -6px
+               left: 12px
+               width: 322px !important
+               top: inherit
+         &:nth-child(3)
+            img 
+               bottom: -6px
+               left: 12px
+               width: 317px !important
+               top: inherit
+         &:nth-child(4)
+            img 
+               bottom: -21px
+               margin-left: 0
+               left: 12px
+               width: 294px !important
+               top: inherit
+   .partry2 .art__item:first-child img 
+      bottom: -10px
+      left: 91px
+      width: 224px !important
+      top: inherit
+   .partry2 .art__item:nth-child(2) img 
+      bottom: -17px
+      left: 78px
+      width: 236px !important
+      top: inherit
